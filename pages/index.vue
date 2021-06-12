@@ -15,7 +15,7 @@
               experience in the industry. Currently, work as a Backend Engineer using Go programming language.</p>
             <p style="font-size:16px">
               📬 &nbsp;<span class="grey">bagusays@gmail.com</span><br>
-              🔗 &nbsp;<a href="https://www.linkedin.com/in/bagus-p-43344b13a/" class="link">LinkedIn</a>
+              🔗 &nbsp;<a target="_blank" href="https://www.linkedin.com/in/bagus-p-43344b13a/" class="link">LinkedIn</a>
             </p>
           </b-col>
           <b-col lg="3"></b-col>
@@ -32,7 +32,7 @@
 
     </div>
     <div class="footer">
-      <p>Built with <a href="nuxtjs.org">NuxtJS</a> and <a href="https://www.netlify.com/">Digital Ocean</a></p>
+      <p>Built with <a target="_blank" href="nuxtjs.org">NuxtJS</a> and <a target="_blank" href="https://digitalocean.com/">Digital Ocean</a></p>
     </div>
   </div>
 </template>

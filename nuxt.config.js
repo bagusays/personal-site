@@ -170,7 +170,7 @@ export default {
       minimize: true,
       splitChunks: {
         chunks: 'all',
-        maxSize: 128000
+        maxSize: 256000
       }
     },
     babel: {
