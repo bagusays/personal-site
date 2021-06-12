@@ -23,8 +23,8 @@
       </div>
 
       <b-nav tabs style="margin-bottom:40px">
-        <b-nav-item v-bind:active="tabActive == `DETAILS`" @click="tabActive = `DETAILS`">🙋‍♂️ Details</b-nav-item>
-        <b-nav-item v-bind:active="tabActive == `PORTFOLIO`" @click="tabActive = `PORTFOLIO`">🛠 Portfolio</b-nav-item>
+        <b-nav-item v-bind:active="tabActive == `DETAILS`" @click="tabActive = `DETAILS`">🙋‍♂️&nbsp;Details</b-nav-item>
+        <b-nav-item v-bind:active="tabActive == `PORTFOLIO`" @click="tabActive = `PORTFOLIO`">🛠&nbsp;Portfolio</b-nav-item>
       </b-nav>
 
       <DetailsComponent v-if="tabActive == `DETAILS`" />
@@ -32,7 +32,7 @@
 
     </div>
     <div class="footer">
-      <p>Built with <a href="nuxtjs.org">NuxtJS</a> and <a href="https://www.netlify.com/">Netlify</a></p>
+      <p>Built with <a href="nuxtjs.org">NuxtJS</a> and <a href="https://www.netlify.com/">Digital Ocean</a></p>
     </div>
   </div>
 </template>
