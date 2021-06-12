@@ -72,12 +72,12 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'G-TWZWB9WWGX'
+    id: process.env.GOOGLE_ANALYTICS_ID
   },
 
   publicRuntimeConfig: {
     googleAnalytics: {
-      id: 'G-TWZWB9WWGX'
+      id: process.env.GOOGLE_ANALYTICS_ID
     }
   },
 
