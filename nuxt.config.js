@@ -158,14 +158,6 @@ export default {
     optimization: {
       minimize: true,
       splitChunks: {
-        cacheGroups: {
-          styles: {
-            name: 'styles',
-            test: /\.(css|vue)$/,
-            chunks: 'all',
-            enforce: true
-          }
-        },
         chunks: 'all',
         maxSize: 128000
       }
