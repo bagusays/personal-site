@@ -87,6 +87,7 @@
         With my squad, I contribute but not limited to:<br>
         • Helping the server-side team for improving the existing marketplace platform to serve the customers.<br>
         • Creating new features, making changes, and bug fixing by the following product requirements, and reviewing co-worker’s code as well.<br>
+        • Create many pdf builders for insurance product detail, comparison one product and another, certificate of ownership of insurance policy.<br>
         • Researched & initialize unit testing usability for my squad.`,
           techStack: "NodeJS, MoleculerJS, Objection.js, Jest, Go, MySQL, NATS.io",
         }, {
