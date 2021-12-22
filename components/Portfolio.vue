@@ -26,6 +26,8 @@
 </template>
 
 <script>
+  import PortfolioHttpRequest from "../service/portfolio"
+
   export default {
     data: function () {
       return {
@@ -40,13 +42,9 @@
         imagePreview: "",
       }
     },
-    created: function () {
+    created: async function () {
       let self = this;
-      fetch("/portfolio.json")
-        .then((resp) => resp.json())
-        .then(function (d) {
-          self.portfolios = d.sort((a, b) => a.id - b.id);
-        })
+      this.portfolios = await PortfolioHttpRequest()
     },
     methods: {
       enlargeImage: function (imageUrl) {

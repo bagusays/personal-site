@@ -40,6 +40,7 @@
 <script>
   import DetailsComponent from '../components/Details';
   import PortfolioComponent from '../components/Portfolio';
+  import PortfolioHTTPRequest from '../service/portfolio'
 
   export default {
     components: {
@@ -50,6 +51,9 @@
       return {
         tabActive: "DETAILS"
       }
+    },
+    created: async () => {
+      await PortfolioHTTPRequest()
     }
   }
 </script>
