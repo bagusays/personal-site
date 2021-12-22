@@ -92,11 +92,10 @@
           techStack: "NodeJS, MoleculerJS, Objection.js, Jest, Go, MySQL, NATS.io",
         }, {
           position: "Full Stack Engineer",
-          companyUrl: "https://growpal.co.id",
-          company: "Growpal",
+          companyUrl: "https://www.google.com/search?q=company+confidential",
+          company: "Company Confidential",
           year: "Jul 2018 - Jul 2020",
-          description: `Growpal is a financial technology company focusing on aquaculture development in Indonesia through equity crowd-investment scheme. Growpal provides a digital-financial platform where the investors and fish farmers can synergize to build a better fisheries production ecosystem.
-        <br><br>
+          description: `
         I contribute but not limited to:<br>
         • Implement a Single Page Application (SPA), RESTful API and Machine Learning (Object Detection & Image Recognition) to develop some internal services (most likely is web application).<br>
         • Setup, manage, deploy, and monitor servers to ensure business continuity and production services is running well using Digital Ocean and Ubuntu server 16/18.04.<br>
