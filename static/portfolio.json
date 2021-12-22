@@ -1,7 +1,7 @@
 [
     {
         "id": 3,
-        "title": "Growpal operations management",
+        "title": "Operations Management",
         "background": [
             "Permasalahan pencatatan merupakan permasalahan utama dalam pelaksanaan operasi proyek yang berjalan di perusahaan.",
             "Tidak ter-organisir nya pencatatan puluhan bahkan sampai ratusan proyek yang berjalan bersamaan yang dijalankan oleh perusahaan.",
@@ -28,11 +28,11 @@
             "Nginx"
         ],
         "images": [
-            "op-growpal-1.png",
-            "op-growpal-2.png",
-            "op-growpal-3.png",
-            "op-growpal-4.png",
-            "op-growpal-5.png"
+            "op-1.png",
+            "op-2.png",
+            "op-3.png",
+            "op-4.png",
+            "op-5.png"
         ]
     }, {
         "id": 4,
@@ -101,7 +101,7 @@
         ]
     }, {
         "id": 7,
-        "title": "Earth Growpal",
+        "title": "Earth",
         "background": [
             "Tindakan preventif sangat diperlukan jika perusahaan bekerja dan bergerak dibidang yang notabene cukup mengandalkan dan bergantung ke alam. Hal ini juga merupakan tindakan yang menguatkan score assesment/credit scoring perusahaan dalam menyeleksi campaigner yang akan mengajukan proyek pendanaan budidaya ke perusahaan"
         ],
@@ -115,11 +115,11 @@
             "Nginx"
         ],
         "images": [
-            "earth-growpal-1.png"
+            "earth-1.png"
         ]
     }, {
         "id": 11,
-        "title": "Growpal Email Blast",
+        "title": "Email Blast",
         "background": [
             "Sulitnya menyebarkan pengumuman resmi dari perusahaan jika perusahaan mempunyai lokasi kerja yang berbeda-beda, terlebih berbeda kota"
         ],
@@ -134,13 +134,13 @@
             "Nginx"
         ],
         "images": [
-            "blast-growpal-1.png",
-            "blast-growpal-2.png",
-            "blast-growpal-3.png"
+            "blast-1.png",
+            "blast-2.png",
+            "blast-3.png"
         ]
     }, {
         "id": 1,
-        "title": "A.I OpenMap Growpal",
+        "title": "A.I OpenMap",
         "background": [
             "Terkendalanya supply & demand bagi pelaku usaha trading membuat perusahaan sulit mencari peluang untuk mendapatkan revenue"
         ],
@@ -160,12 +160,12 @@
             "MySQL"
         ],
         "images": [
-            "openmap-growpal-1.png",
-            "openmap-growpal-2.png"
+            "openmap-1.png",
+            "openmap-2.png"
         ]
     }, {
         "id": 8,
-        "title": "Growpal News Scraper",
+        "title": "News Scraper",
         "background": [
             "Tindakan preventif sangat diperlukan jika perusahaan bekerja dan bergerak dibidang yang notabene cukup mengandalkan dan bergantung ke alam ataupun suatu fenomena butuh tindakan yang cepat."
         ],
@@ -179,7 +179,7 @@
             "Mysql"
         ],
         "images": [
-            "news-scraper-growpal-1.png"
+            "news-scraper-1.png"
         ]
     }, {
         "id": 12,
@@ -217,7 +217,7 @@
         ]
     }, {
         "id": 5,
-        "title": "Growpal Storage",
+        "title": "Storage",
         "background": [
             "Permasalahan pencatatan merupakan permasalahan utama dalam aktifitas transisi pakan.",
             "Permasalahan kuantiti pakan yang berlebih biasanya dialihkan/dijual ke gudang lain, namun tidak ada nya pencatatan yang mencatatat aktifitas ini",
@@ -237,14 +237,14 @@
             "Nginx"
         ],
         "images": [
-            "storage-growpal-1.png",
-            "storage-growpal-2.png",
-            "storage-growpal-3.png",
-            "storage-growpal-4.png"
+            "storage-1.png",
+            "storage-2.png",
+            "storage-3.png",
+            "storage-4.png"
         ]
     }, {
         "id": 6,
-        "title": "Growpal Asset Management",
+        "title": "Asset Management",
         "background": [
             "Permasalahan pencatatan merupakan permasalahan utama dalam pencatatan fixed asset.",
             "Tidak ter-organisir nya pencatatan pada setiap barang yang telah dibeli.",
@@ -265,9 +265,9 @@
             "Nginx"
         ],
         "images": [
-            "asset-growpal-1.png",
-            "asset-growpal-2.png",
-            "asset-growpal-3.png"
+            "asset-1.png",
+            "asset-2.png",
+            "asset-3.png"
         ]
     }, {
         "id": 9,
