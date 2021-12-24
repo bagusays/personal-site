@@ -49,6 +49,10 @@ export default {
         href: '/icon/icon-96x96.png'
       },
       {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com"
+      },
+      {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
       }
