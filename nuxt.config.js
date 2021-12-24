@@ -68,6 +68,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxt/postcss8',
     '@nuxtjs/google-analytics'
   ],
 
@@ -83,11 +84,9 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
-
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxt/image',
   ],
 
   bootstrapVue: {
@@ -152,6 +151,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
     extractCSS: true,
     html: {
       minify: {

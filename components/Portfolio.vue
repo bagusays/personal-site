@@ -3,23 +3,25 @@
     <div class="overlay" v-if="imagePreview !== ''">
       <div class="closeBtn" @click="imagePreview = ''">✖️</div>
       <div class="imagePreview">
-        <b-img fluid :src="`/portfolio/${imagePreview}`"></b-img>
+        <img :src="`/portfolio/${imagePreview}`" />
       </div>
     </div>
     <p class="grey sorryText">*Sorry, for now this section was written in Bahasa, will updating later</p>
     <div v-for="portfolio in portfolios" :key="portfolio.id" style="margin-bottom:60px">
       <p class="headline">{{portfolio.title}}</p>
-      <hr>
+      <hr class="my-2">
       <div class="image-block">
-        <a v-for="image in portfolio.images" :key="image" @click="enlargeImage(image)">
-          <b-img-lazy v-bind="mainProps" :src="`/portfolio/${image}`"></b-img-lazy>
-        </a>
+        <div class="flex flex-row justify-center space-x-2">
+          <a v-for="image in portfolio.images" :key="image" @click="enlargeImage(image)">
+            <nuxt-img class="max-h-16" :src="`/portfolio/${image}`"></nuxt-img>
+          </a>
+        </div>
       </div>
       <p class="enlarge-text" v-if="portfolio.images.length != 0">*click to enlarge</p>
       <p class="fw-600">Garis Besar Fitur</p>
-      <ol class="grey">
-        <li v-for="feature in portfolio.feature" :key="feature">{{feature}}</li>
-      </ol>
+      <ul class="list-inside list-disc grey">
+        <li class="my-1" v-for="feature in portfolio.feature" :key="feature">{{feature}}</li>
+      </ul>
       <p class="grey"><span class="fw-600">Tech Stack:</span> <span>{{portfolio.techStack.join(", ")}}</span></p>
     </div>
   </div>

@@ -1,32 +1,36 @@
 <template>
   <div>
-    <p class="headline">🚀 &nbsp;Work Experiences</p>
-    <hr>
-    <div class="block">
-      <b-row class="text-center job-field" v-for="d in workExperiences" :key="d.company">
-        <b-col class="text-left" md="8">
+    <div class="my-3">
+      <p class="headline">🚀 &nbsp;Work Experiences</p>
+      <hr class="my-2">
+      <div class="grid grid-cols-4 my-5" v-for="d in workExperiences" :key="d.company">
+        <div class="col-span-4 md:col-span-3">
           <p class="position">{{d.position}} <span style="color: #86868b;font-size:14px">at </span><a target="_blank"
               v-bind:href="d.companyUrl" class="company link">{{d.company}}</a></p>
-          <p class="year d-sm-block d-md-none text-left">{{d.year}}</p>
+          <p class="block md:hidden grey text-left">{{d.year}}</p>
           <p class="description">
             <span v-html="d.description"></span>
             <br>
             <span class="strong">Tech stack</span>: {{d.techStack}}
           </p>
-        </b-col>
-        <b-col class="year bold d-none d-md-block" md="4">{{d.year}}</b-col>
-      </b-row>
+        </div>
+
+        <div class="text-right hidden md:block grey">
+          <span>{{d.year}}</span>
+        </div>
+      </div>
     </div>
 
-    <b-row align-h="between">
-      <b-col sm="12" md="5" style="margin-bottom:40px !important">
-        <p class="headline">🏆 &nbsp;Award</p>
-        <hr>
+    <div class="my-10">
+      <div class="grid md:grid-cols-2 gap-10">
         <div>
-          <b-row class="text-center">
-            <b-col class="text-left">
+          <div class="grid grid-cols-3 space-y-2">
+            <div class="col-span-3">
+              <p class="headline">🏆 &nbsp;Award</p>
+              <hr class="my-2">
+            </div>
+            <div class="col-span-2">
               <p class="position">2nd Place, Hackathon: The Global Dialogue on Seafood Traceability</p>
-              <p class="year d-sm-block d-md-none text-left grey f-12">26-27 Oct 2019</p>
               <p class="company grey">
                 Big Data for Seafood Traceability and Sustainability in Bali, Indonesia <br>
                 <a class="link" target="_blank"
@@ -34,35 +38,40 @@
                 and
                 <a class="link" target="_blank" href="https://devpost.com/software/fisheye-ai">Devpost</a>
               </p>
-            </b-col>
-            <b-col class="year bold d-none d-md-block" cols="4">26-27 Oct 2019</b-col>
-          </b-row>
+            </div>
+            <div class="hidden md:block justify-items-end">
+              <p class="grey">26-27 Oct 2019</p>
+            </div>
+          </div>
         </div>
-      </b-col>
 
-      <b-col sm="12" md="5">
-        <p class="headline">🏫 &nbsp;Education</p>
-        <hr>
         <div>
-          <b-row class="text-center">
-            <b-col class="text-left">
+          <div class="grid grid-cols-3 space-y-2">
+            <div class="col-span-3">
+              <p class="headline">🏫 &nbsp;Education</p>
+              <hr class="my-2">
+            </div>
+            <div class="col-span-2">
               <p class="position">Bachelor Degree of Computer Science</p>
-              <p class="year d-sm-block d-md-none text-left grey f-12">2014 - 2018</p>
-              <p class="company grey">University of Persada Indonesia Y.A.I</p>
-            </b-col>
-            <b-col class="year bold d-none d-md-block" cols="4">2014 - 2018</b-col>
-          </b-row>
-          <b-row class="text-center">
-            <b-col class="text-left">
+              <p class="company grey">
+                University of Persada Indonesia Y.A.I
+              </p>
+            </div>
+            <div class="hidden md:block justify-items-end">
+              <p class="grey">2014 - 2018</p>
+            </div>
+
+            <div class="col-span-2">
               <p class="position">High School of Computer and Network Engineering</p>
-              <p class="year d-sm-block d-md-none text-left grey f-12">2011 - 2014</p>
               <p class="company grey">Karya Guna Technical High School</p>
-            </b-col>
-            <b-col class="year bold d-none d-md-block" cols="4">2011 - 2014</b-col>
-          </b-row>
+            </div>
+            <div class="hidden md:block justify-items-end">
+              <p class="grey">2011 - 2014</p>
+            </div>
+          </div>
         </div>
-      </b-col>
-    </b-row>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -119,28 +128,6 @@
 </script>
 
 <style scoped>
-  .job-field {
-    margin-top: 15px !important;
-  }
-
-  .f-12 {
-    font-size: 12px !important;
-  }
-
-  .block {
-    margin-bottom: 50px;
-  }
-
-  .row {
-    margin-top: 8px;
-  }
-
-  .year {
-    font-size: 14px;
-    text-align: right;
-    margin-bottom: 0;
-  }
-
   .description {
     font-size: 14px;
     color: #86868b;
