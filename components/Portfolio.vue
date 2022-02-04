@@ -46,7 +46,8 @@
     },
     created: async function () {
       let self = this;
-      this.portfolios = await PortfolioHttpRequest()
+      const rawPortfolio = await PortfolioHttpRequest()
+      this.portfolios = rawPortfolio.sort((a, b) => a.id - b.id)
     },
     methods: {
       enlargeImage: function (imageUrl) {
