@@ -70,3 +70,5 @@ markup:
 
 outputs:
   home: ["HTML", "RSS", "JSON"]
+
+googleAnalytics: "UA-199360809-1"
