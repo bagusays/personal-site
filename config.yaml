@@ -1,0 +1,72 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'Bagus P. Agung'
+theme: "hugo-tania"
+
+paginate: 6
+pluralizelisttitles: "false"
+
+params:
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji: 🚀
+
+  # Logo will show before the blog title on site navbar.
+  # titleLogo: favicon.ico
+  
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes: true
+  
+  siteName: "Bagus Panggalih Agung"
+  siteDesc: "Bagus Panggalih Agung | Personal Full-stack Developer Portfolio. I'm a Front-End & Back-End Software Developer and more based in Jakarta, Indonesia. Check out my work and my portfolio"
+  author: "Bagus"
+
+  colorScheme:
+    # Enable toggle colorScheme
+    # Default to true
+    toggle: true
+    # Default colorScheme
+    # Default to auto
+    default: auto
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow: 10
+
+  # Show your socail information with icon on index bio with `_index.md` content.
+  socialOptions:
+    dev-to:
+    email:
+    facebook:
+    github:
+    instagram:
+    linkedin:
+    medium:
+    stack-overflow:
+    steam:
+    telegram:
+    twitter:
+    twitch:
+    whatsapp:
+  
+  # Comments settings
+  comments:
+    enabled: false
+
+menu:
+  header:
+    - name: Portfolio
+      url: "/portfolio"
+    - name: Experience
+      url: "/experience"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
